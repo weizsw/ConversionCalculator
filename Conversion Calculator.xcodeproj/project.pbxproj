@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0203058C1F84118000F7FCFD /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203058B1F84118000F7FCFD /* model.swift */; };
 		373630181F84103600BD44E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373630171F84103600BD44E6 /* AppDelegate.swift */; };
 		3736301A1F84103600BD44E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373630191F84103600BD44E6 /* ViewController.swift */; };
 		3736301D1F84103600BD44E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3736301B1F84103600BD44E6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0203058B1F84118000F7FCFD /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		373630141F84103600BD44E6 /* Conversion Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conversion Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		373630171F84103600BD44E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		373630191F84103600BD44E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				373630171F84103600BD44E6 /* AppDelegate.swift */,
 				373630191F84103600BD44E6 /* ViewController.swift */,
+				0203058B1F84118000F7FCFD /* model.swift */,
 				3736301B1F84103600BD44E6 /* Main.storyboard */,
 				3736301E1F84103600BD44E6 /* Assets.xcassets */,
 				373630201F84103600BD44E6 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3736301A1F84103600BD44E6 /* ViewController.swift in Sources */,
+				0203058C1F84118000F7FCFD /* model.swift in Sources */,
 				373630181F84103600BD44E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
