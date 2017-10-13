@@ -9,6 +9,10 @@
 import Foundation
 class UnitConverter {
     
+    //inital
+    var inputValueString = ""
+    
+    
     //mile to k
     func mTok(_ miles: String) -> String {
         
@@ -337,7 +341,27 @@ class UnitConverter {
         return String(format: "%.2f", teasp)
     }
     
+    // clear and back
+    func clearInput() {
+        inputValueString = ""
+    }
     
+    func back() {
+        inputValueString = String(inputValueString[inputValueString.startIndex..<inputValueString.endIndex])
+    }
+    func append(digit: Int) {
+        inputValueString += String(digit)
+    }
+    
+    func Decimal() {
+        guard !inputValueString.contains(".") else { return }
+        
+        if inputValueString.isEmpty {
+            inputValueString += "0."
+        } else {
+            inputValueString += "."
+        }
+    }
     
     
     
